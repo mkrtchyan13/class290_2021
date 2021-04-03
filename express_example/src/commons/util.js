@@ -19,5 +19,10 @@ module.exports = {
                 resolve(data);
             });
         });
-    }
+    },
+    usr_roles:{
+        admin:"admin",
+        customer:"customer"
+    },
+    max_failed_attempts:2
 }
